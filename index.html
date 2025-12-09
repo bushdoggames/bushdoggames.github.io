@@ -7,43 +7,40 @@
   <title>Bush Dog Games</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
 </head>
 
 <body>
-
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Bush Dog Games</a>
+      <a class="navbar-brand fw-bold" href="#" data-i18n="brand">Bush Dog Games</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#team">Equipe</a></li>
-          <li class="nav-item"><a class="nav-link" href="#game">Jogos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team" data-i18n="nav.team">Equipe</a></li>
+          <li class="nav-item"><a class="nav-link" href="#game" data-i18n="nav.games">Jogos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contato</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <header class="hero text-center text-light d-flex flex-column justify-content-center align-items-center">
-    <h1 class="mb-3">Bush Dog Games</h1>
-    <p class="lead">Brasileiros, desenvolvedores, artistas, designers de jogos, apaixonados e entusiastas.<br>Somos tudo isso e muito mais.</p>
-    <a href="#team" class="btn btn-warning btn-lg mt-3">Conheça a Equipe</a>
+    <h1 class="mb-3" data-i18n="hero.title">Bush Dog Games</h1>
+    <p class="lead" data-i18n="hero.subtitle">Brasileiros, desenvolvedores, artistas, designers de jogos, apaixonados e entusiastas.<br>Somos tudo isso e muito mais.</p>
+    <a href="#team" class="btn btn-warning btn-lg mt-3" data-i18n="hero.button">Conheça a Equipe</a>
   </header>
 
   <main class="container mt-5">
 
     <!-- EQUIPE -->
     <section id="team" class="py-5">
-      <h2 class="text-center mb-4">Equipe</h2>
+      <h2 class="text-center mb-4" data-i18n="team.title">Equipe</h2>
       <div class="row g-4">
 
         <!-- MEMBRO 1 -->
@@ -52,20 +49,16 @@
             <div class="card-body">
               <img src="https://i.imgur.com/GUCuLRW.jpeg" alt="Foto do membro" class="member-photo mb-3">
               <h5 class="card-title">Giovanni Mascitelli</h5>
-              <p class="card-text">Desenvolvedor Full-stack</p>
+              <p class="card-text" data-i18n="team.member1.role">Desenvolvedor Full-stack</p>
 
               <div class="d-flex justify-content-center gap-3 mt-3 social-icons">
-                
                 <a href="https://github.com/giomascitelli" target="_blank" class="icon-link">
                   <i class="bi bi-github"></i>
                 </a>
-                
                 <a href="https://www.linkedin.com/in/giomascitelli/" target="_blank" class="icon-link">
                   <i class="bi bi-linkedin"></i>
                 </a>
-                
               </div>
-
             </div>
           </div>
         </div>
@@ -76,20 +69,16 @@
             <div class="card-body">
               <img src="https://i.imgur.com/QSlDurA.jpeg" alt="Foto do membro" class="member-photo mb-3">
               <h5 class="card-title">Gabriela Mendes</h5>
-              <p class="card-text">Desenvolvedora Back-end</p>
+              <p class="card-text" data-i18n="team.member2.role">Desenvolvedora Back-end</p>
 
               <div class="d-flex justify-content-center gap-3 mt-3 social-icons">
-                
                 <a href="https://github.com/GabiMendes" target="_blank" class="icon-link">
                   <i class="bi bi-github"></i>
                 </a>
-                
                 <a href="https://www.linkedin.com/in/gabriela-marques-mendes/" target="_blank" class="icon-link">
                   <i class="bi bi-linkedin"></i>
                 </a>
-                
               </div>
-
             </div>
           </div>
         </div>
@@ -100,20 +89,16 @@
             <div class="card-body">
               <img src="https://i.imgur.com/ECTkoby.jpeg" alt="Foto do membro" class="member-photo mb-3">
               <h5 class="card-title">Atilio Braat</h5>
-              <p class="card-text">Desenvolvedor Back-end</p>
+              <p class="card-text" data-i18n="team.member3.role">Desenvolvedor Back-end</p>
 
               <div class="d-flex justify-content-center gap-3 mt-3 social-icons">
-                
                 <a href="https://github.com/AtilioBraat" target="_blank" class="icon-link">
                   <i class="bi bi-github"></i>
                 </a>
-                
                 <a href="https://www.linkedin.com/in/atilio-raad/" target="_blank" class="icon-link">
                   <i class="bi bi-linkedin"></i>
                 </a>
-                
               </div>
-
             </div>
           </div>
         </div>
@@ -124,20 +109,16 @@
             <div class="card-body">
               <img src="https://i.imgur.com/1fBv6wB.png" alt="Foto do membro" class="member-photo mb-3">
               <h5 class="card-title">Vinicius Moura</h5>
-              <p class="card-text">Ilustrador</p>
+              <p class="card-text" data-i18n="team.member4.role">Ilustrador</p>
 
               <div class="d-flex justify-content-center gap-3 mt-3 social-icons">
-                
                 <a href="https://vmportifolio.carrd.co/" target="_blank" class="icon-link">
                   <i class="bi bi-folder-fill"></i>
                 </a>
-                
                 <a href="https://www.linkedin.com/in/vinicius-m-275795110/" target="_blank" class="icon-link">
                   <i class="bi bi-linkedin"></i>
                 </a>
-                
               </div>
-
             </div>
           </div>
         </div>
@@ -148,36 +129,32 @@
             <div class="card-body">
               <img src="https://i.imgur.com/8Mo66BR.jpeg" alt="Foto do membro" class="member-photo mb-3">
               <h5 class="card-title">Leonardo Matias</h5>
-              <p class="card-text">Desenvolvedor Full-stack</p>
+              <p class="card-text" data-i18n="team.member5.role">Desenvolvedor Full-stack</p>
 
               <div class="d-flex justify-content-center gap-3 mt-3 social-icons">
-                
                 <a href="https://github.com/matias3904" target="_blank" class="icon-link">
                   <i class="bi bi-github"></i>
                 </a>
-                
                 <a href="https://www.linkedin.com/in/leonardo-matias-73b86a265/" target="_blank" class="icon-link">
                   <i class="bi bi-linkedin"></i>
                 </a>
-                
               </div>
-
             </div>
           </div>
         </div>
-
+      </div>
     </section>
 
     <!-- JOGOS -->
     <section id="game" class="py-5">
-      <h2 class="text-center mb-4">Jogos</h2>
+      <h2 class="text-center mb-4" data-i18n="games.title">Jogos</h2>
       <div class="col-md-4">
         <div class="game-card card shadow-sm" data-bs-toggle="modal" data-bs-target="#gameModal1">
           <img src="https://i.imgur.com/1bMNsp4.png" class="card-img-top" alt="Imagem do jogo">
           <div class="card-body">
             <h5 class="card-title">Extreme Super Jumper</h5>
-            <p class="card-text">Plataforma</p>
-            <p class="card-text"><small class="text-muted">Lançamento: Em Breve</small></p>
+            <p class="card-text" data-i18n="games.game1.genre">Plataforma</p>
+            <p class="card-text"><small class="text-muted" data-i18n="games.game1.release">Lançamento: Em Breve</small></p>
           </div>
         </div>
       </div>
@@ -193,18 +170,13 @@
             </div>
 
             <div class="modal-body">
-<!--
-              <div class="ratio ratio-16x9 mb-3">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Extreme Super Jumper - Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
--->
-              <img src="https://i.imgur.com/jO3aaVb.png" width="244" height="66"></img>
-              <p><strong>Plataformas:</strong> PC, Browser</p>
-              <p><strong>Gênero:</strong> Plataforma</p>
-              <p><strong>Lançamento:</strong> Em Breve</p>
+              <img src="https://i.imgur.com/jO3aaVb.png" width="244" height="66" alt="Logo do jogo">
+              <p><strong data-i18n="games.game1.details.platforms">Plataformas:</strong> PC, Browser</p>
+              <p><strong data-i18n="games.game1.details.genre">Gênero:</strong> <span data-i18n="games.game1.details.genreValue">Plataforma</span></p>
+              <p><strong data-i18n="games.game1.details.release">Lançamento:</strong> <span data-i18n="games.game1.details.releaseValue">Em Breve</span></p>
 
               <div class="d-flex flex-wrap gap-2 my-3">
-                <button class="btn btn-primary" onclick="window.open('#', '_blank')" disabled>
+                <button class="btn btn-primary" onclick="window.open('#', '_blank')" disabled data-i18n="games.game1.playButton">
                   Jogar
                 </button>
               </div>
@@ -212,66 +184,59 @@
               <hr>
 
               <!-- EQUIPE DO JOGO -->
-              <h5 class="mt-4">Equipe</h5>
+              <h5 class="mt-4" data-i18n="games.game1.teamTitle">Equipe</h5>
 
               <div class="row g-4 mt-2">
-
-                <!-- Membro 1 -->
                 <div class="col-6 col-md-4 col-lg-3">
                   <div class="text-center">
-                    <img src="https://i.imgur.com/GUCuLRW.jpeg" class="member-photo-sm mb-2">
+                    <img src="https://i.imgur.com/GUCuLRW.jpeg" class="member-photo-sm mb-2" alt="Giovanni Mascitelli">
                     <p class="fw-bold mb-0">Giovanni Mascitelli</p>
-                    <small>Desenvolvedor líder</small>
+                    <small data-i18n="games.game1.team.member1">Desenvolvedor líder</small>
                   </div>
                 </div>
 
-                <!-- Membro 2 -->
                 <div class="col-6 col-md-4 col-lg-3">
                   <div class="text-center">
-                    <img src="https://i.imgur.com/ECTkoby.jpeg" class="member-photo-sm mb-2">
+                    <img src="https://i.imgur.com/ECTkoby.jpeg" class="member-photo-sm mb-2" alt="Atilio Braat">
                     <p class="fw-bold mb-0">Atilio Braat</p>
-                    <small>Desenvolvedor</small>
+                    <small data-i18n="games.game1.team.member2">Desenvolvedor</small>
                   </div>
                 </div>
 
-                <!-- Membro 3 -->
                 <div class="col-6 col-md-4 col-lg-3">
                   <div class="text-center">
-                    <img src="https://i.imgur.com/QSlDurA.jpeg" class="member-photo-sm mb-2">
+                    <img src="https://i.imgur.com/QSlDurA.jpeg" class="member-photo-sm mb-2" alt="Gabriela Mendes">
                     <p class="fw-bold mb-0">Gabriela Mendes</p>
-                    <small>Desenvolvedora</small>
+                    <small data-i18n="games.game1.team.member3">Desenvolvedora</small>
                   </div>
                 </div>
 
                 <div class="col-6 col-md-4 col-lg-3">
                   <div class="text-center">
-                    <img src="https://i.imgur.com/1fBv6wB.png" class="member-photo-sm mb-2">
+                    <img src="https://i.imgur.com/1fBv6wB.png" class="member-photo-sm mb-2" alt="Vinicius Moura">
                     <p class="fw-bold mb-0">Vinicius Moura</p>
-                    <small>Designer de Produção</small>
+                    <small data-i18n="games.game1.team.member4">Designer de Produção</small>
                   </div>
                 </div>
-              </div>
-
-              <div class="modal-footer">
               </div>
             </div>
           </div>
         </div>
-
+      </div>
     </section>
 
     <!-- CONTATO -->
     <section id="contact" class="py-5 text-center">
-      <h2 class="mb-4">Contato</h2>
-      <p>Email: <strong>bushdoggames@proton.me</strong></p>
+      <h2 class="mb-4" data-i18n="contact.title">Contato</h2>
+      <p><span data-i18n="contact.email">Email:</span> <strong>bushdoggames@proton.me</strong></p>
     </section>
   </main>
 
   <footer class="bg-dark text-white text-center py-3">
-    <small>© 2025 Bush Dog Games. Todos os direitos reservados.</small>
+    <small data-i18n="footer.copyright">© 2025 Bush Dog Games. Todos os direitos reservados.</small>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
-
 </html>
