@@ -36,7 +36,7 @@
 }
 
 .game-card .card-img-top {
-    height: 235px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -63,3 +63,4 @@
 .icon-link {
     text-decoration: none;
 }
+
