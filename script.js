@@ -22,12 +22,12 @@ const translations = {
     // Jogos
     'games.title': 'Jogos',
     'games.game1.genre': 'Plataforma',
-    'games.game1.release': 'Lançamento: Em Breve',
+    'games.game1.release': 'Lançamento: 2025',
     'games.game1.details.platforms': 'Plataformas:',
     'games.game1.details.genre': 'Gênero:',
     'games.game1.details.genreValue': 'Plataforma',
     'games.game1.details.release': 'Lançamento:',
-    'games.game1.details.releaseValue': 'Em Breve',
+    'games.game1.details.releaseValue': '2025',
     'games.game1.playButton': 'Jogar',
     'games.game1.teamTitle': 'Equipe',
     'games.game1.team.member1': 'Desenvolvedor líder',
@@ -64,12 +64,12 @@ const translations = {
     // Games
     'games.title': 'Games',
     'games.game1.genre': 'Platformer',
-    'games.game1.release': 'Release: Coming Soon',
+    'games.game1.release': 'Release: 2025',
     'games.game1.details.platforms': 'Platforms:',
     'games.game1.details.genre': 'Genre:',
     'games.game1.details.genreValue': 'Platformer',
     'games.game1.details.release': 'Release:',
-    'games.game1.details.releaseValue': 'Coming Soon',
+    'games.game1.details.releaseValue': '2025',
     'games.game1.playButton': 'Play',
     'games.game1.teamTitle': 'Team',
     'games.game1.team.member1': 'Lead Developer',
@@ -137,4 +137,5 @@ class Localization {
 
 document.addEventListener('DOMContentLoaded', () => {
   window.localization = new Localization();
+
 });
